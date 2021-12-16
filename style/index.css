@@ -1,0 +1,160 @@
+.wrapper{
+    margin: auto;
+    margin-top: 30px;
+    width: 75%;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 0.3fr 3fr 1fr 0.5fr;
+    grid-template-areas: 
+    "upper upper upper"
+    "left middle right"
+    "left middle right"
+    "left lowermiddle right"
+    ;
+    gap: 5px 15px;
+}
+
+.header{
+    grid-area: upper;
+    /* background-color: blue; */
+}
+
+.profile{
+    grid-area: left;
+    /* background-color: red; */
+
+}
+
+.writebar{
+    grid-area: middle;
+    /* background-color: purple; */
+
+}
+
+.addfriends{
+    grid-area: right;
+    /* background-color: yellow; */
+
+}
+
+.news{
+    grid-area: lowermiddle;
+    /* background-color: green; */
+}
+
+
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header img{
+    width: 50%;
+    height: 100%;
+}
+
+.pp{
+    width: 70px !important;
+    height: 50px !important;
+}
+
+
+.header input{
+    margin: 15px 0;
+    height: 50%;
+}
+
+
+.home{
+    width: 7%;
+    text-align: center;
+    background-color: #0C65C3;
+}
+
+.container input{
+    background-color: #EEF3F8;
+}
+
+
+.startpost{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+}
+
+.article{
+    margin: 55px 0;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 0.5fr 1fr 2fr;
+}
+
+.profile{
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+}
+
+.exam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter{
+    display: flex;
+    flex-direction: row;
+    margin: -150px 60px;
+    gap: 15px;
+    /* border: 1px solid black; */
+}
+
+ligne0{
+    grid-area: premier;
+}
+
+ligne1{
+    grid-area: deuxieme;
+}
+
+ligne2{
+    grid-area: troisieme;
+}
+
+ligne3{
+    grid-area: quatrieme;
+}
+
+.addfriends{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "premier"
+    "deuxieme"
+    "troisieme"
+    "quatrieme"
+    ;
+}
+
+.profilepic{
+    width: 130px;
+    height: 130px;
+}
+
+.news{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+
+@media only screen and(max-width:940px){
+
+}

@@ -1,0 +1,28 @@
+@import url("https://use.typekit.net/iux7gqe.css%22");
+
+body { 
+    font-family: proxima-nova,sans-serif;
+}
+
+.nom{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.fonction{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #7E7E7E;
+}
+
+.chiffre{
+    font-weight: 700;
+    font-style: normal;
+    color: #0C65C3;
+}
+
+.important{
+    color: #7E7E7E;
+}
